@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #55C9A6;
+}
+
+main{
+    margin: 0 auto;
+    padding-top: 7%;
+    width: 50%;
+}
+
+h1{
+    width: 744px;
+    text-align: center;
+    margin-bottom: 9%;
+}
+
+h2{
+    font-size: 1.6em;
+    margin-left: 35px;
+}
+
+.carteirinha{
+    width: 744px;
+    height: 394px;
+    border-radius: 48px;
+    border: 3px solid #000;
+    background: #0E8A80;
+    box-shadow: 6px 6px 6px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    
+}
+
+.img{
+    background-image: url("../Imagens/foto_carteirinha.png");
+    background-size: 100%;
+    width: 224px;
+    height: 222px;
+    border-radius: 28px;
+    margin: 12% 6% 5%;
+}
+
+#local{
+    width: 209px;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 20px 0 0 20px;
+    font-weight: bold;
+}
+
+.logo{
+    background-image: url("../Imagens/logo.jpg");
+    background-size: 100%;
+    width: 460px;
+    height: 130px;
+    margin: 7% 3% 2%;
+}
+
+.texto{
+    float: right;
+    width: 500px;
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#texto-pequeno{
+    float: right;
+    width: 300px;
+    text-align: center;
+    margin: 0 19% 0 0;
+}
+
+.divisao-1{
+    border-right: #000 solid 5px;
+    width: 320px;
+}
+
+.divisao-2{
+    width: 480px;
+}
+
+#dados{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lenxend Deca', Sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+.img-1{
+    background-image: url("../Imagens/image\ 5.png");
+    background-size: 100%;
+    width: 820px;
+    height: 797px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif, 'Lenxender Deca';
+
+}
+
+body{
+    background: linear-gradient(90deg, #3a7374 0%, #55c9a6 25%, #55c9a6 75%, #3a7374 100%);
+}
+
+.conteudo{
+    margin-top: 2%;
+    margin-left: 11%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.473);
+    width: 470px;
+    height: 737px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    padding: 5px;
+}
+
+#data{
+    font-size: large;
+}
+
+label{
+    font-size: large;
+    color: rgb(109, 104, 104);
+}
+
+.buttons{
+    padding: 5px;
+    text-align: center;
+}
+
+fieldset{
+    border: #058e83 5px solid;
+    border-radius: 15px;
+    border-color: #058e83;
+    padding: 10px;
+    
+}
+
+input{
+    padding: 2px;
+    outline: none;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="cpf"]{
+    border: none;
+    border-bottom: 2px solid #058e83;
+    width: 400px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="cpf"]::placeholder{
+    font-size: large;
+}
+
+#slogan{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Lenxender Deca', sans-serif;
+    
+}
+
+input[type="reset"]{
+    width: 70px;
+    cursor: pointer;
+    height: auto;
+    background-color: #32ddcf;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+#enviar{
+    text-align: center;
+    width: 70px;
+    cursor: pointer;
+    height: auto;
+    background-color: #32ddcf;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px 8px;
+}
+
+.mini-navbar{
+    color: white;
+    background: linear-gradient(90deg, #058e83 0%, #097879 75%, #00221d 100%);
+    float: right;
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+p{ 
+    font-weight: bold;
+    font-size: 1.6em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

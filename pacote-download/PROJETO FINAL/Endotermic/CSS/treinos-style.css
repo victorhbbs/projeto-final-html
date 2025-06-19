@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../Imagens/MacBook\ Air\ -\ 4.png");
+    background-size: 100%;
+}
+
+main{
+    margin: 0 auto;
+    width: 60vw;
+    padding-top: 4%;
+}
+
+.conteudo{
+    width: 937px;
+    height: 654px;
+    border-radius: 53px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 3.5%;
+    display: flex;
+}
+
+.circulo{
+    width: 303px;
+    height: 304px;
+    border-radius: 404px;
+    background: #AFAFAF;
+    margin-left: 15%;
+    padding-top: 50px;
+}
+
+.img-icon{
+    background-image: url("../Imagens/pin\ 1.png");
+    background-size: 100%;
+    width: 202px;
+    height: 207px;
+    margin: 0 0 0 50px;
+}
+
+.texto{
+    width: 400px;
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 4%;
+    padding: 20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    width: 273px;
+    height: 38px;
+    margin-left: 18%;
+    cursor: pointer;
+}
+
+.esquerda{
+    margin-left: 2%;
+    float: left;
+}
+
+.direita{
+    margin-left: 3%;
+    float: right;
+}
+
+.serie{
+    width: 443px;
+    height: 586px;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+}
+
+.branco{
+    background-color: #EFEFEF;
+    width: 443px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cinza{
+    background-color: #d9d9d9;
+    width: 443px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#kg{
+    float: right;
+}

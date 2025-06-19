@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #90EFD8;
+}
+
+.nav{
+    background: linear-gradient(90deg, #058e83 0%, #097879 75%, #00221d 100%);
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    
+}
+
+#menu-itens{
+    background: #058e8300;
+    padding: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+     
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    padding: 0;
+}
+
+.a-menu{  
+    text-decoration: none;
+    margin: 10px;
+    color: #e6e6e6;;
+}
+
+
+#verde{
+    color: #0cee0c;
+}
+
+#branco{
+    color: white;
+}
+
+.a-menu:hover{
+    transition: 500ms;
+    padding: 10px;
+    color: black;
+    background-color: rgb(250, 250, 250);
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.imagem-grande{
+    width: auto;
+    height: 833px;
+    background-image: url("../Imagens/imagem-grande.jpg");
+    background-size: 100%;
+}
+
+.planos{
+    border-radius: 20px;
+    min-width: 320px;
+    max-width: auto;
+    margin: 10px;
+    padding-left: 185px;
+    padding-top: 2%;
+    height: 529px;
+    display: flex;
+    
+
+}
+
+.plano{
+    height: 400px;
+    width: 328px;
+    background-color: #0B594E;
+    text-align: center;
+    border-radius: 35px;
+    margin: 40px;
+    
+    
+}
+
+section{
+    height: 220px;
+    background-color: #07342D;
+    border-radius: 0 0 35px 35px;
+    padding-top: 30px;
+
+}
+
+#nome-plano{
+    margin-top: 140px;
+    color: white;
+}
+
+.propaganda{
+    font-weight: bold;
+    width: 760px;
+    height: 507px;
+    margin-left: 120px;
+    padding-top: 250px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 85px black;
+    
+}
+
+label[for="text1"]{
+    font-size: 3.5em;
+    margin: 5px;
+    color: #968D3D;
+}
+
+label[for="text2"]{
+    font-size: 3em;
+    margin: 5px;
+    color: #968D3D;
+}
+
+label[for="text3"]{
+    font-size: 2.5em;
+    margin: 5px;
+    color: #968D3D;
+}
+
+#botao-propaganda{
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 134px;
+    height: 62px;
+    background-color: #0bafa2;
+    border-radius: 15px;
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+#botao-propaganda:hover{
+    transition: 500ms;
+    color: #0bafa2;
+    background-color: rgb(250, 250, 250);
+    justify-content: center;
+}
+
+ul{
+    margin: 0 auto;
+    width: 190px;
+    color: white;
+    font-weight: bold;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.post{
+    max-width: 1074px;
+    min-width: 400px;
+    margin: auto;
+    display: flex;
+    border: none;
+    border-radius: 32px;
+}
+
+.conteudo{
+    background-color: #0B594E;
+    width: 491px;
+    height: 495px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px 0 0 30px;
+    margin-top: 30px;
+}
+
+.imagem{
+    background-color: #ffffff;
+    background-image: url(../Imagens/pins-academia-removebg-preview.png);
+    background-size: 100%;
+    width: 583px;
+    height: 495px;
+    float: right;
+    border-radius: 0 30px 30px 0;
+    margin-top: 30px;
+}
+
+.titulo-postagem{
+    font-size: 48px;
+    color: #968D3D;
+    margin-bottom: 20px;
+}
+
+.conteudo-postagem{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin: 20px;
+}
+
+.saiba-mais{
+    background-color: #D9D9D9;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.saiba-mais:hover{
+    transition: 200ms;
+    padding: 15px 20px;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+.bnr-serie{
+    margin: auto;
+    margin-top: 80px;
+    width: 1067px;
+    height: 185px;
+    background-color: #0B594E;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.titulo-bnr-serie{
+    font-size: 96px;
+    color: white;
+    font-weight: bold;
+}
+
+.serie{
+    margin: auto;
+    margin-top: 76px;
+    width: 1324px;
+    height: 1413px;
+    background-color: #0B594E;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tipo-serie{
+    width: 356px;
+    height: 399px;
+    background: #D9D9D9;
+    box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 36px;
+    
+    
+}
+
+.titulo-tipo-serie{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.img-tipo-serie{
+    width: 274px;
+    height: 276px;
+    background-image: url("../Imagens/pins-academia-removebg-preview.png");
+    background-size: 100%;
+    margin-left: 34px;
+}
+
+.img-tipo-serie-2{
+    width: 274px;
+    height: 276px;
+    background-image: url("../Imagens/pin\ 1.png");
+    background-size: 100%;
+    margin-left: 34px;
+}
+
+.img-tipo-serie-3{
+    margin-top: 10px;
+    width: 274px;
+    height: 270px;
+    background-image: url("../Imagens/pin_mulher_halteres.png");
+    background-size: 100%;
+    margin-left: 34px;
+}
+
+.mais{
+    float: right;
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    width: 60px;
+}

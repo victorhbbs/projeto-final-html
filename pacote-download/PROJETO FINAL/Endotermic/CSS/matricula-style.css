@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #3a7374 0%, #55c9a6 25%, #55c9a6 75%, #3a7374 100%);
+}
+
+main{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    width: 67%;
+}
+
+.plano{
+    width: 1088px;
+    height: 317px;
+    border-radius: 47px;
+    background: #D9D9D9;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 24px 30px 24px;
+    margin-bottom: 2%;
+}
+
+.plano-amarelo{
+    width: 1088px;
+    height: 317px;
+    border-radius: 47px;
+    background: #D9D9D9;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 24px 30px 24px;
+}
+
+.entorno{
+    width: 1022px;
+    height: 269px;
+    border-radius: 47px;
+    border: 5px solid #138977;
+    background: #D9D9D9;
+    display: flex;
+    padding-left: 8%;
+}
+
+.entorno-amarelo{
+    width: 1022px;
+    height: 269px;
+    border-radius: 47px;
+    border: 5px solid #988D30;
+    background: #D9D9D9;
+    display: flex;
+    padding-left: 8%;
+}
+
+.cartao{
+    background: #138977;
+    width: 478px;
+    height: 259px;
+    margin-left: 8%;
+}
+
+.cartao-amarelo{
+    background: #988D30;
+    width: 478px;
+    height: 259px;
+    margin-left: 8%;
+}
+
+h1{
+    margin-top: 9%;
+}
+
+#noventa{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+#cento-e-vinte{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#cento-e-cinquenta{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+label{
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 3%;
+}
+
+.btn-verde{
+    width: 147px;
+    height: 157px;
+    border-radius: 25px;
+    background: #10685B;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btn-amarelo{
+    width: 147px;
+    height: 157px;
+    border-radius: 25px;
+    background: #988D30;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.img-1{
+    margin-top: 4%;
+    background-image: url("../Imagens/cara_do_musculo.png");
+    background-size: 100%;
+    width: 247px;
+    height: 240px;
+    float: right;
+}
+
+.img-2{
+    background-image: url("../Imagens/mulher_halteres.png");
+    background-size: 100%;
+    width: 217px;
+    height: 259px;
+    float: right;
+}
+
+.img-3{
+    background-image: url("../Imagens/cara_fone.png");
+    background-size: 100%;
+    width: 217px;
+    height: 255px;
+    float: right;
+}
